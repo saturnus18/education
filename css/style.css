@@ -1,0 +1,147 @@
+.logo{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+body{
+	font-family: sans-serif, Arial, Helvetica;
+}
+.bold{
+	font-weight: 600;
+}
+.gray{
+	color: #9797af;
+}
+.blue{
+	color: #0c20a3;
+}
+.center{
+	text-align: center;
+}
+p{
+	font-size: 1.1rem;
+}
+.form{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	background-color: #00000061;
+	padding: 20px;
+}
+.mb-form{
+	margin-bottom: 20px;
+}
+input{
+	padding: 15px;
+	font-size: 1.5rem;
+	border: none;
+}
+input::-webkit-input-placeholder {
+	color:#9797af;
+}
+input::-moz-placeholder{
+	color:#9797af;
+}
+input:-moz-placeholder{
+	color:#9797af;
+}
+input:-ms-input-placeholder{
+	color:#9797af;
+}
+.white{
+	color: #fff;
+}
+.bg-blue{
+	background-color: #0c20a3;
+	padding: 20px 0;
+}
+.size{
+	font-size: 1.5rem;
+}
+.img-sec{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.f{
+	height: 56px;
+	width: 56px;
+	background-color: #00000061;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	color: #fff;
+	font-size: 1.8rem;
+}
+.icons{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	background-color: #00000061;
+	padding: 20px 0;
+}
+a{
+	color: inherit;
+}
+a:hover{
+	color: inherit;
+	text-decoration: none;
+}
+.checkbox{
+	height: 30px;
+	width: 30px;
+	background-color: #fff;
+	margin-right: 20px;
+}
+.checkbox-cont{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.bg {
+	position: relative;
+}
+.bg:before{
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 100px;
+	top: 30%;
+	left: 42%;
+	background-color: #0c20a3;
+	-webkit-clip-path: polygon(100% 50%, 18% 0, 18% 100%);
+	clip-path: polygon(100% 50%, 18% 0, 18% 100%);
+}
